@@ -61,7 +61,7 @@ const CrudForm = ({ createData, datatoEdit, setdatatoEdit, updateData }) => {
   }
   
   return (
-    <div>
+    <>
       <h3>{datatoEdit ? 'Editar':'Agregar'}</h3>
       <form  onSubmit={handleSubmit}>
         <InputText
@@ -81,7 +81,7 @@ const CrudForm = ({ createData, datatoEdit, setdatatoEdit, updateData }) => {
         <InputButton type='submit' value='Enviar' bg={'#924e7d'} />
         <InputButton type='reset' value='Limpiar' onClick={handleReset} bg='#3b83bd'/>
       </form>
-    </div>
+    </>
   )
 }
 
