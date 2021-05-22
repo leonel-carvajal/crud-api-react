@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import CrudApp from './components/CrudApp'
 import { createGlobalStyle } from 'styled-components';
 
